@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;;
+}
+
+header{
+    position: relative;
+    height:100vh;
+    background-image: url(./img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    opacity:10;
+    background-color: #1d809f;
+}
+.navbar a{
+    color:white;
+}
+
+.navbar a:hover{
+   color:rgb(31, 28, 28);
+   transition: all 0.2;
+}
+
+header .btn{
+    margin-top: 20px;
+    background-color: #1d809f;
+    padding:20px 30px;
+}
+
+header .btn:hover{
+    background-color:#1a6a82;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+header p{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+header h1{
+    font-weight: 900;
+    font-style: bold;
+}
+
+.about{
+    padding: 30px;
+}
+
+.about h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about figcaption{
+    font-size: 19px;
+    font-weight: 100;
+    color:black;
+}
+
+.about a{
+    color:#1d809f;
+}
+
+.about .btn{
+    padding:20px 35px;
+}
+
+
+.services{
+    background-color: #1d809f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ h6{
+    color: #ecb807;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 55px;
+}
+
+.services p{
+    color:white;
+    opacity: 0.8;
+}
+
+.services .container .boxes{
+    width: 300px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .icons{
+   width: 120px;
+   height:120px;
+   border-radius: 50%;
+   background-color: white;
+}
+
+.services .icons i,img{
+   color:#1a6a82;
+}
+
+.callout{
+    background-image: url(./img/bg-callout.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    background-position: center center;
+}
+
+.callout h1{
+    font-size: 3.3em;
+    font-weight: 700;
+}
+
+.callout .btn{
+    margin-top: 20px;
+    background-color: #1d809f;
+    padding:20px 35px;
+}
+
+.callout .btn:hover{
+    background-color:#1a6a82;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.portfolio a:hover {
+    color: #17667f;
+}
+
+.portfolio img:hover{
+    clip-path: inset(2rem);
+}
+
+
+.portfolio-item{
+    display:block;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(33, 37, 41, 0.2);
+    transition: all 0.15s ease-in-out;
+}
+
+.portfolio-item:hover{
+    background-color: rgba(29, 128, 159, 0.9);
+    clip-path: inset(2rem);
+}
+
+
+.portfolio-item .caption{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    z-index: 1;
+    align-items: flex-start;
+    padding-left: 50px;
+    background-color: rgba(33, 37, 41, 0.2);
+    transition: all 0.15s ease-in-out;
+
+}
+
+.portfolio .caption:hover{
+    background-color: rgba(29, 128, 159, 0.9);
+    clip-path: inset(2rem);
+}
+
+.portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    color: #fff;
+    position:absolute;
+    bottom:50px;
+    text-align: left;
+}
+
+
+.portfolio .caption h1{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.portfolio .caption p{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+
+.before-map{
+    background-color:#1d809f;
+}
+
+.before-map .buttons .btn{
+   padding: 20px 35px;
+}
+
+.map{
+    height: 30rem;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.footer .icon{
+    width: 65px;
+    height: 65px;
+    margin:0 7px;
+    border-radius: 50%;
+    background-color: #1d809f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: border;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.footer .icon:hover {
+    cursor: pointer;
+    background-color: #1a6a82;
+}
+
+.footer p{
+    font-size: 13px;}
