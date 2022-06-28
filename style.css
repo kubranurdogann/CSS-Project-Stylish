@@ -142,13 +142,6 @@ header h1{
 }
 
 
-.portfolio a:hover {
-    color: #17667f;
-}
-
-.portfolio img:hover{
-    clip-path: inset(2rem);
-}
 
 
 .portfolio-item{
@@ -156,13 +149,14 @@ header h1{
     overflow: hidden;
     position: relative;
     background-color: rgba(33, 37, 41, 0.2);
-    transition: all 0.15s ease-in-out;
+    transition: all 0.20s ease-in-out;
 }
 
+
 .portfolio-item:hover{
-    background-color: rgba(29, 128, 159, 0.9);
-    clip-path: inset(2rem);
+    transform: scale(0.9);
 }
+
 
 
 .portfolio-item .caption{
@@ -175,14 +169,19 @@ header h1{
     align-items: flex-start;
     padding-left: 50px;
     background-color: rgba(33, 37, 41, 0.2);
-    transition: all 0.15s ease-in-out;
-
+    transition: all 0.20s ease-in-out;
+    
 }
 
 .portfolio .caption:hover{
     background-color: rgba(29, 128, 159, 0.9);
-    clip-path: inset(2rem);
 }
+
+
+
+
+
+
 
 .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
